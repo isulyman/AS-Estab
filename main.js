@@ -124,18 +124,9 @@ if (randomNum1 >= 0) {
 else {
     console.log("Negative");
 }
-// // let randomNum = 0;
-// // const numb1 = Math.sign(randomNum);
-// // if (numb1 === -1) {
-// //   console.log("Number is Negative");
-// // } else if (numb1 === 0) {
-// //   console.log("Number is Zero");
-// // } else {
-// //   console.log("Number is Positive");
-// // }
-// //16
-// // let number; // Print the multiplication table for this number up to 10.
-// const tabNum = 3;
-// for (let i = 1; i <= 10; i++) {
-//   console.log(`${tabNum} X ${i} = ${tabNum * i}`);
-// }
+//16
+// let number; // Print the multiplication table for this number up to 10.
+const tabNum = 3;
+for (let i = 1; i <= 10; i++) {
+    console.log(`${tabNum} X ${i} = ${tabNum * i}`);
+}
